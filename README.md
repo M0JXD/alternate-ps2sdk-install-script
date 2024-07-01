@@ -1,40 +1,20 @@
+# Alternate PS2SDK Installation Script
 
+This is forked from the 1st version of israpp's install script. 
+My pull request was open for months and he never accepted. @israpps has now made non-mergeable changes to his script, so these changes are stuck in limbo.
 
-[![Matías's GitHub stats](https://github-readme-stats.vercel.app/api?username=israpps&theme=github_dark)
-](https://github.com/israpps)
+Additions made to the original script are:
 
-### Just a guy trying to become a software developer
+Added WSL2 detection.
 
+Made the dependency installs line by line, so if any fail the others get installed (due to my happening with libgsl23)
 
-<details>
-  <summary> <b> Contact me </b> </summary>
-  
-- [Personal e-mail](mailto:israelson-matias@hotmail.com)
-- __Discord:__ `El_isra#4175`
-- [Facebook](https://www.facebook.com/matias.israelson.5)
-</details>
+Added some extra libraries/installs for the dependencies:
 
-- [my website](https://israpps.github.io/)
+Option for PS2ETH install.
 
+Added exit for each option (i.e. each switch only does it's designated task, only a "pure" call installs the sdk)
 
-[__Help me buy a PC__ (and soon, help me buy food)](https://www.paypal.com/paypalme/ElisraPS2)
+Added cancel option just prior to install with dependencies install reminder.
 
-#
-<details>
-  <summary> <b> pinned repo's: </b> </summary>
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=wLaunchELF_ISR&theme=github_dark&icon_color=a0a0a0)
-](https://github.com/israpps/wLaunchELF_ISR)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=HDL-Batch-installer&theme=github_dark&icon_color=a0a0a0)
-](https://github.com/israpps/HDL-Batch-installer)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FreeMcBoot-Installer&theme=github_dark&icon_color=a0a0a0)
-](https://github.com/israpps/FreeMcBoot-Installer)
-  
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FunTuna-Fork&theme=github_dark&icon_color=a0a0a0)
-](https://github.com/israpps/Funtuna-Fork)
-</details>
-
-<!--
-&theme=github_dark&icon_color=a0a0a0&hide_border=1
-&hide_border=0
--->
+Added suggested commands for post install.
