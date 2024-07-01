@@ -1,7 +1,7 @@
 # Alternate PS2SDK Installation Script
 
-This is forked from the 1st version of israpp's install script. 
-My pull request was open for months and he never accepted. @israpps has now made non-mergeable changes to his script, so these changes are stuck in limbo.
+This is forked from the 1st version of israpps' install script. 
+My pull request was open for months and he never accepted. israpps has now made non-mergeable changes to his script, so these changes are stuck in limbo.
 
 Additions made to the original script are:
 
